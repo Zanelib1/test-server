@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "no-underscore-dangle": "off",
+    "no-console": "off",
+    "linebreak-style": "off",
+    "no-bitwise": "off"
+  },
+  "installedESLint": true,
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ]
+}
