@@ -3,7 +3,7 @@ services:
 language: node_js
 node_js:
   - 6
- notifications:
+notifications:
   webhooks:
     urls:
       - https://zeus.ci/hooks/fb69c7b8-1e9d-11e9-b5e8-0a580a28042e/public/provider/travis/webhook
